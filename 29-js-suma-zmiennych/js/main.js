@@ -1,7 +1,9 @@
-let number = 12;
+let firstNumber = 10;
+let secondNumber = 20;
 
-if (number > 10) {
-    console.log('podana liczba jest większa niz 10')
-} else {
-    console.log('podana liczba jest mniejsza, lub równa 10');
+function sum(num1, num2) {
+    sum = num1 + num2;
+    return sum;
 }
+
+    console.log(sum(firstNumber, secondNumber));
