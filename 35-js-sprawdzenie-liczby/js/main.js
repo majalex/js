@@ -1,4 +1,4 @@
-randomNumber = Math.floor(Math.random() * 301);
+let randomNumber = Math.floor(Math.random() * 301);
 
 function number(n) {
     if (n >= 100 && n <= 200) {
