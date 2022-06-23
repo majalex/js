@@ -24,4 +24,4 @@ function calculator(num1, num2) {
     console.log(" Wynik jest nieprawidłowy!");
   }
 }
-  console.log(calculator(3, 8));
+  calculator(3, 8);
